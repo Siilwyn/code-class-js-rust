@@ -1,0 +1,19 @@
+--- a/exercise-2/src/main.rs
++++ b/exercise-2/src/main.rs
+@@ -22,14 +22,10 @@ fn main() {
+         .json::<Vec<GitHubUser>>()
+         .unwrap()
+         .iter()
+-        // Filter out `None` quotes that have no matching users
+-        // Find a useful method on `Iterator` to replace the `map`
+-        // https://doc.rust-lang.org/std/iter/trait.Iterator.html
+-        .map(|user| {
++        .filter_map(|user| {
+             sublime_slack_quotes
+-                // https://doc.rust-lang.org/std/collections/struct.HashMap.html#method.get
+                 .get(user.login.as_str())
+-                // Use `map` in combination with: https://doc.rust-lang.org/std/macro.format.html
++                .map(|quote| format!("{} - {}", user.login, quote))
+         })
+         .for_each(|message| println!("{:?}", message));
+ }

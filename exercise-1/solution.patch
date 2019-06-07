@@ -1,0 +1,21 @@
+--- a/exercise-1/src/main.rs
++++ b/exercise-1/src/main.rs
+@@ -1,13 +1,13 @@
+ fn main() {
+-    let some_value = 2;
++    let mut some_value = 2;
+
+     println!("Initial value: {}", some_value);
+
+-    some_value = addOne(some_value);
++    some_value = add_one(some_value);
+
+-    println!("2 + 1 = ");
++    println!("2 + 1 = {}", some_value);
+ }
+
+-fn addOne(x: i32) -> i32 {
+-    x + 1;
++fn add_one(x: i32) -> i32 {
++    x + 1
+ }

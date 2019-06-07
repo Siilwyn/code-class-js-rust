@@ -1,0 +1,156 @@
+@import 'typeface-overpass';
+
+:root {
+    --main-bg-color: #fafafa;
+    --main-type-color: #3c3c3c;
+    --main-highlight-color: #eddd3e;
+    --alt-bg-color: #3c3c3c;
+    --alt-type-color: #ffffff;
+    --alt-highlight-color: #64b5f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 1.4rem;
+}
+
+body {
+  color: var(--main-type-color);
+  font-family: overpass, sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  border-bottom: 8px solid var(--main-highlight-color);
+  background-color: var(--main-bg-color);
+}
+
+.section--dark {
+  background-color: var(--alt-bg-color);
+  color: var(--alt-type-color);
+}
+
+p, ul, ol, pre {
+  max-width: 35em;
+  margin-bottom: 1.3em;
+}
+
+iframe {
+  flex-grow: 1;
+  width: 100%;
+}
+
+ul, ol {
+  list-style-position: inside;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-alpha;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 0.5em;
+  font-weight: inherit;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 2.827em;
+}
+
+h3 {
+  font-size: 1.999em;
+}
+
+h4 {
+  font-size: 1.414em;
+}
+
+img {
+  margin-bottom: 2rem;
+  vertical-align: middle;
+}
+
+img + img {
+  margin-top: 2rem;
+}
+
+a {
+  color: var(--alt-highlight-color);
+  font-weight: bold;
+}
+
+blockquote, cite {
+  position: relative;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+blockquote p::before,
+blockquote p::after {
+  position: absolute;
+  font-size: 1.414em;
+  font-weight: 500;
+}
+
+blockquote p::before {
+  margin-left: -0.75em;
+  content: open-quote;
+}
+
+blockquote p::after {
+  margin-left: 0.5em;
+  content: close-quote;
+}
+
+pre {
+  padding: 1em;
+  border-radius: 4px;
+  background-color: var(--alt-bg-color);
+  color: var(--alt-type-color);
+}
+
+.code-pair-example {
+  grid-column-gap: 2em;
+  display: grid;
+  grid-auto-columns: minmax(25em, auto);
+  grid-auto-flow: column;
+  grid-template-rows: auto 1fr;
+}
+
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+}
+
+.side-by-side > * {
+  margin: 2rem;
+}

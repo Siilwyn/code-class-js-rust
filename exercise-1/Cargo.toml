@@ -1,0 +1,8 @@
+[package]
+name = "exercise-1"
+version = "0.1.0"
+authors = ["Selwyn <talk@selwyn.cc>"]
+repository = "https://github.com/Siilwyn/code-class-js-rust"
+edition = "2018"
+
+[dependencies]
