@@ -1,0 +1,365 @@
+/* overpass-100normal - latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100;
+  src:
+    local('Overpass Thin '),
+    local('Overpass-Thin'),
+    url('/overpass-latin-100.9d53287a.woff2') format('woff2'), 
+    url('/overpass-latin-100.f8fb7d01.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overpass-100italic - latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 100;
+  src:
+    local('Overpass Thin italic'),
+    local('Overpass-Thinitalic'),
+    url('/overpass-latin-100italic.eb334a75.woff2') format('woff2'), 
+    url('/overpass-latin-100italic.de2907ca.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overpass-200normal - latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200;
+  src:
+    local('Overpass Extra Light '),
+    local('Overpass-Extra Light'),
+    url('/overpass-latin-200.4644cc0b.woff2') format('woff2'), 
+    url('/overpass-latin-200.b34c70d3.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overpass-200italic - latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 200;
+  src:
+    local('Overpass Extra Light italic'),
+    local('Overpass-Extra Lightitalic'),
+    url('/overpass-latin-200italic.7572dab0.woff2') format('woff2'), 
+    url('/overpass-latin-200italic.34fb7b3f.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overpass-300normal - latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src:
+    local('Overpass Light '),
+    local('Overpass-Light'),
+    url('/overpass-latin-300.1b1ce751.woff2') format('woff2'), 
+    url('/overpass-latin-300.fec53f2b.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overpass-300italic - latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 300;
+  src:
+    local('Overpass Light italic'),
+    local('Overpass-Lightitalic'),
+    url('/overpass-latin-300italic.55182299.woff2') format('woff2'), 
+    url('/overpass-latin-300italic.d315c25f.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overpass-400normal - latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local('Overpass Regular '),
+    local('Overpass-Regular'),
+    url('/overpass-latin-400.6e13e3d9.woff2') format('woff2'), 
+    url('/overpass-latin-400.c62b22da.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overpass-400italic - latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    local('Overpass Regular italic'),
+    local('Overpass-Regularitalic'),
+    url('/overpass-latin-400italic.63a96195.woff2') format('woff2'), 
+    url('/overpass-latin-400italic.faeb99d0.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overpass-600normal - latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src:
+    local('Overpass SemiBold '),
+    local('Overpass-SemiBold'),
+    url('/overpass-latin-600.44e81ef8.woff2') format('woff2'), 
+    url('/overpass-latin-600.8be61c73.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overpass-600italic - latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 600;
+  src:
+    local('Overpass SemiBold italic'),
+    local('Overpass-SemiBolditalic'),
+    url('/overpass-latin-600italic.1938cf0f.woff2') format('woff2'), 
+    url('/overpass-latin-600italic.411a82d5.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overpass-700normal - latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src:
+    local('Overpass Bold '),
+    local('Overpass-Bold'),
+    url('/overpass-latin-700.5121824d.woff2') format('woff2'), 
+    url('/overpass-latin-700.8fa689be.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overpass-700italic - latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src:
+    local('Overpass Bold italic'),
+    local('Overpass-Bolditalic'),
+    url('/overpass-latin-700italic.12c2b1de.woff2') format('woff2'), 
+    url('/overpass-latin-700italic.574b06a2.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overpass-800normal - latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src:
+    local('Overpass ExtraBold '),
+    local('Overpass-ExtraBold'),
+    url('/overpass-latin-800.92be47fb.woff2') format('woff2'), 
+    url('/overpass-latin-800.e0d624e4.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overpass-800italic - latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 800;
+  src:
+    local('Overpass ExtraBold italic'),
+    local('Overpass-ExtraBolditalic'),
+    url('/overpass-latin-800italic.e84db08a.woff2') format('woff2'), 
+    url('/overpass-latin-800italic.800b410b.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overpass-900normal - latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src:
+    local('Overpass Black '),
+    local('Overpass-Black'),
+    url('/overpass-latin-900.970cdbf8.woff2') format('woff2'), 
+    url('/overpass-latin-900.9ec087fa.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overpass-900italic - latin */
+@font-face {
+  font-family: 'Overpass';
+  font-style: italic;
+  font-display: swap;
+  font-weight: 900;
+  src:
+    local('Overpass Black italic'),
+    local('Overpass-Blackitalic'),
+    url('/overpass-latin-900italic.5d714025.woff2') format('woff2'), 
+    url('/overpass-latin-900italic.0a98265b.woff') format('woff'); /* Modern Browsers */
+}
+
+
+:root {
+    --main-bg-color: #fafafa;
+    --main-type-color: #3c3c3c;
+    --main-highlight-color: #eddd3e;
+    --alt-bg-color: #3c3c3c;
+    --alt-type-color: #ffffff;
+    --alt-highlight-color: #64b5f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 1.4rem;
+}
+
+body {
+  color: var(--main-type-color);
+  font-family: overpass, sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  border-bottom: 8px solid var(--main-highlight-color);
+  background-color: var(--main-bg-color);
+}
+
+.section--dark {
+  background-color: var(--alt-bg-color);
+  color: var(--alt-type-color);
+}
+
+p, ul, ol, pre {
+  max-width: 35em;
+  margin-bottom: 1.3em;
+}
+
+iframe {
+  flex-grow: 1;
+  width: 100%;
+}
+
+ul, ol {
+  list-style-position: inside;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-alpha;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 0.5em;
+  font-weight: inherit;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 2.827em;
+}
+
+h3 {
+  font-size: 1.999em;
+}
+
+h4 {
+  font-size: 1.414em;
+}
+
+img {
+  margin-bottom: 2rem;
+  vertical-align: middle;
+}
+
+img + img {
+  margin-top: 2rem;
+}
+
+a {
+  color: var(--alt-highlight-color);
+  font-weight: bold;
+}
+
+blockquote, cite {
+  position: relative;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+blockquote p::before,
+blockquote p::after {
+  position: absolute;
+  font-size: 1.414em;
+  font-weight: 500;
+}
+
+blockquote p::before {
+  margin-left: -0.75em;
+  content: open-quote;
+}
+
+blockquote p::after {
+  margin-left: 0.5em;
+  content: close-quote;
+}
+
+pre {
+  padding: 1em;
+  background-color: var(--alt-bg-color);
+  color: var(--alt-type-color);
+  border-radius: 4px;
+}
+
+.code-pair-example {
+  display: grid;
+  grid-auto-columns: minmax(25em, auto);
+  grid-auto-flow: column;
+  grid-column-gap: 2em;
+  grid-template-rows: auto 1fr;
+}
+
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+}
+
+.side-by-side > * {
+  margin: 2rem;
+}
+
+
+/*# sourceMappingURL=/main.af46ece4.css.map */
