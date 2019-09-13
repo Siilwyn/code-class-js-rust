@@ -280,6 +280,7 @@ h1, h2, h3, h4 {
   font-weight: inherit;
   font-weight: 600;
   line-height: 1.2;
+  text-align: center;
 }
 
 h1 {
@@ -339,16 +340,16 @@ blockquote p::after {
 
 pre {
   padding: 1em;
+  border-radius: 4px;
   background-color: var(--alt-bg-color);
   color: var(--alt-type-color);
-  border-radius: 4px;
 }
 
 .code-pair-example {
+  grid-column-gap: 2em;
   display: grid;
   grid-auto-columns: minmax(25em, auto);
   grid-auto-flow: column;
-  grid-column-gap: 2em;
   grid-template-rows: auto 1fr;
 }
 
