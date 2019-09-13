@@ -28,13 +28,14 @@
         Rust is the most loved programming language on StackOverflow for 4 years in a row
         Offers complete package, think less about non-code
         The Rust standard distribution includes tools to run code, manage docs and packages
-        Compare to JS
-            How do you start a project?
-                npm as standard, cargo: what comes by default
-                Cargo creates a `src/main.rs`
-            testing: unit tests and integration tests baked in
-            std: contains a lot more methods for nicely handling things like padding strings and can grow because less used scopes are 'imported' just like Node.js and unlike the web
-            Async stuff is not nice when you need to deal with it
+    The package
+    Compare to JS
+        How do you start a project?
+            npm as standard, cargo: what comes by default
+            Cargo creates a `src/main.rs`
+        testing: unit tests and integration tests baked in
+        std: contains a lot more methods for nicely handling things like padding strings and can grow because less used scopes are 'imported' just like Node.js and unlike the web
+        Async stuff is not nice when you need to deal with it
     Who?
         Mozilla
             Developed internally for Firefox
@@ -46,8 +47,15 @@
             https://www.figma.com/blog/rust-in-production-at-figma/
             https://blogs.dropbox.com/tech/2016/06/lossless-compression-with-brotli/
         "Rust has absolutely stunning dependency management." - engineer at npm
-        Used as webassembly source at Cloudflare
-        https://developers.cloudflare.com/workers/webassembly/
+        Use Rust for serverless functions
+            Users
+                Cloudflare with WASM
+                https://developers.cloudflare.com/workers/webassembly/
+                ZEIT Now
+                https://zeit.co/blog/introducing-now-rust
+            Pros/cons
+                Serverless function are often straightforward so not much benefit
+                But performance is
     Let's try it out
         Go through hello world example
             cd /tmp
@@ -61,27 +69,27 @@
         Setup
             Rustup (version manager)
             Don't worry removing is simple
-        Exercises
-        use cargo test to show how are unit and integrations tests done, how is documentation generated
-            Exercise 1
-                Introduction
-                    two functions, have to change things in both
-                    on line 8 we have to add a value, hint: check the other print statement
-                variables immutable by default
-                naming conventions
-                functions need type annotation, rest inferred where possible
-            Exercise 2
-            let's talk to the web!
-                Introduction
-                    importing the rust standard library and external dependencies: crates
-                    define structure, hashmap and vector: types, object and array
-                    see links to the docs of what 'iter' and 'get' return
-                    note that there are ways to write more elegant, but kept it more explicit for the code class
-                cargo 'syncs' dependencies automatically
-                need to handle errors, no null
-                    Option.unwrap is explicit easy way out
-                    Option has methods to operate on internal values
-                JSON to typed responses
+    Exercises
+        Exercise 1
+            Introduction
+                two functions, have to change things in both
+                on line 8 we have to add a value, hint: check the other print statement
+            variables immutable by default
+            naming conventions
+            functions need type annotation, rest inferred where possible
+        Exercise 2
+        let's talk to the web!
+            Introduction
+                importing the rust standard library and external dependencies: crates
+                define structure, hashmap and vector: types, object and array
+                see links to the docs of what 'iter' and 'get' return
+                note that there are ways to write more elegant, but kept it more explicit for the code class
+            cargo 'syncs' dependencies automatically
+            need to handle errors, no null
+                Option.unwrap is explicit easy way out
+                Option has methods to operate on internal values
+            JSON to typed responses
+            Serde feature flag is like JS import tree shaking
     Conclusion
         Still a bit young, development tools are catching up
         Async support in nightly but not stable yet
